@@ -14,7 +14,7 @@ module.exports = function (config) {
             "../node_modules/blueimp-file-upload/js/jquery.fileupload.js",
             "//fast.wistia.net/assets/external/E-v1.js",
             'app.js',
-            'components/video-uploader/video-uploader.component.js',
+            'app/components/ui-wistia/ui-wistia.component.js',
             'components/**/*.js'
         ],
 

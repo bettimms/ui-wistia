@@ -1,5 +1,5 @@
 (function (app) {
-    app.component("videoUploader", {
+    app.component("uiWistia", {
         template: `<div>
     <div class="box">
         <input type="file" name="file[]" id="file-1" class="inputfile inputfile-2"               

@@ -1,11 +1,11 @@
 'use strict';
 
-describe('Component: videoUploader', function () {
+describe('Component: uiWistia', function () {
 
     var compile, scope, componentEl, controller;
 
     function getCompiledElement() {
-        var element = angular.element('<video-uploader></video-uploader>');
+        var element = angular.element('<ui-wistia></ui-wistia>');
         var compiledElement = compile(element)(scope);
         scope.$digest();
         return compiledElement;
@@ -19,7 +19,7 @@ describe('Component: videoUploader', function () {
             scope = $rootScope.$new();
         });
         componentEl = getCompiledElement();
-        controller = componentEl.controller("videoUploader")
+        controller = componentEl.controller("uiWistia")
     });
 
     it('should have input element', function () {
